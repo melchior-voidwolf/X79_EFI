@@ -1,0 +1,96 @@
+16:034  6:733  Found BIOS RSDP at F0000
+16:034  0:000  Printing ACPI tables from RSDP F0000 ...
+16:034  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:034  0:000    (Xsdt: BB108078, Rsdt: BB108028)
+16:034  0:000    BB108078: 'XSDT', 'A M I', Rev: 1, Len: 108
+16:034  0:000    BB108028: 'RSDT', 'A M I', Rev: 1, Len: 72
+16:034  0:000    Tables in Xsdt: 9
+16:034  0:000    0. BB1106D0: 'FACP', 'A M I', Rev: 5, Len: 268
+16:034  0:000        (Dsdt: BB108170, Facs: BB7B4F80, XDsdt: BB108170, XFacs: 0)
+16:034  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140
+16:035  0:001        BB7B4F80: 'FACS', Ver: 2, Len: 64
+16:035  0:000    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312
+16:035  0:000    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:035  0:000    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:035  0:000    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+16:035  0:000    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56
+16:035  0:000    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+16:035  0:000    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+16:035  0:000    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:035  0:000    Tables in Rsdt: 9
+16:035  0:000    0. BB1080E8: 'FACP', 'A M I', Rev: 2, Len: 132
+16:035  0:000        (Dsdt: BB108170, Facs: BB7B4F40)
+16:035  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140
+16:036  0:001        BB7B4F40: 'FACS', Ver: 0, Len: 64
+16:036  0:000    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312
+16:036  0:000    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:036  0:000    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:036  0:000    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+16:036  0:000    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56
+16:036  0:000    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+16:036  0:000    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+16:036  0:000    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:036  0:000  Found UEFI Acpi 2.0 RSDP at BB108000
+16:036  0:000  Saving ACPI tables from RSDP BB108000 to EFI\CLOVER\ACPI\origin ...
+16:036  0:000   BB108000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+16:045  0:009    (Xsdt: BB108078, Rsdt: BB108028)
+16:045  0:000    BB108078: 'XSDT', 'A M I', Rev: 1, Len: 108 -> XSDT.aml
+16:050  0:005    BB108028: 'RSDT', 'A M I', Rev: 1, Len: 72 -> RSDT.aml
+16:055  0:005    Tables in Xsdt: 9
+16:055  0:000    0. BB1106D0: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+16:060  0:005        (Dsdt: BB108170, Facs: BB7B4F80, XDsdt: BB108170, XFacs: 0)
+16:060  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140 -> DSDT.aml
+16:074  0:013        BB7B4F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+16:079  0:005    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312 -> APIC.aml
+16:084  0:005    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+16:089  0:005    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+16:094  0:005    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60 -> MCFG.aml
+16:099  0:005    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+16:104  0:005    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576 -> SSDT-0-CpuPm.aml
+16:146  0:041    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012 -> VFCT.aml
+16:151  0:005    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+16:156  0:005    Tables in Rsdt: 9
+16:156  0:000    0. BB1080E8: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+16:161  0:005        (Dsdt: BB108170, Facs: BB7B4F40)
+16:161  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140
+16:162  0:001        BB7B4F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+16:167  0:005    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312
+16:167  0:000    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:167  0:000    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:167  0:000    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+16:167  0:000    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56
+16:167  0:000    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+16:167  0:000    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+16:167  0:000    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:167  0:000  Found UEFI Acpi 1.0 RSDP at BB108000
+16:167  0:000  Printing ACPI tables from RSDP BB108000 ...
+16:167  0:000   BB108000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:167  0:000    (Xsdt: BB108078, Rsdt: BB108028)
+16:167  0:000    BB108078: 'XSDT', 'A M I', Rev: 1, Len: 108
+16:167  0:000    BB108028: 'RSDT', 'A M I', Rev: 1, Len: 72
+16:167  0:000    Tables in Xsdt: 9
+16:167  0:000    0. BB1106D0: 'FACP', 'A M I', Rev: 5, Len: 268
+16:167  0:000        (Dsdt: BB108170, Facs: BB7B4F80, XDsdt: BB108170, XFacs: 0)
+16:167  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140
+16:168  0:001        BB7B4F80: 'FACS', Ver: 2, Len: 64
+16:168  0:000    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312
+16:168  0:000    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:168  0:000    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:168  0:000    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+16:168  0:000    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56
+16:168  0:000    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+16:168  0:000    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+16:168  0:000    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:168  0:000    Tables in Rsdt: 9
+16:168  0:000    0. BB1080E8: 'FACP', 'A M I', Rev: 2, Len: 132
+16:168  0:000        (Dsdt: BB108170, Facs: BB7B4F40)
+16:168  0:000        BB108170: 'DSDT', 'A M I', Rev: 2, Len: 34140
+16:170  0:001        BB7B4F40: 'FACS', Ver: 0, Len: 64
+16:170  0:000    1. BB1107E0: 'APIC', 'A M I', Rev: 3, Len: 312
+16:170  0:000    2. BB110918: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:170  0:000    3. BB110960: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:170  0:000    4. BB110A00: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+16:170  0:000    5. BB110A40: 'HPET', 'A M I', Rev: 1, Len: 56
+16:170  0:000    6. BB110A78: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+16:170  0:000    7. BB1DDDF8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+16:170  0:000    8. BB1EC480: 'BGRT', 'A M I', Rev: 1, Len: 56
